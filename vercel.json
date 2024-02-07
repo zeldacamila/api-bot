@@ -6,7 +6,18 @@
       }
     ],
     "routes": [
-        { "src": "/(.*)", "dest": "/index.js" }
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      },
+      {
+        "src": "/obtenerToken(.*)",
+        "dest": "/obtenerToken"
+      },
+      {
+        "src": "/recibirToken(.*)",
+        "dest": "/recibirToken"
+      }
     ]
   }
       
