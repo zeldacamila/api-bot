@@ -12,7 +12,7 @@
       },
       {
         "src": "/obtenerToken(.*)",
-        "dest": "/obtenerToken"
+        "dest": "/obtenerToken(.*)"
       },
       {
         "src": "/recibirToken(.*)",
