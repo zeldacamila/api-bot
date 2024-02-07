@@ -13,6 +13,10 @@
       {
         "src": "/obtenerToken(.*)",
         "dest": "/obtenerToken"
+      },
+      {
+        "src": "/recibirToken(.*)",
+        "dest": "/recibirToken"
       }
     ]
   }
